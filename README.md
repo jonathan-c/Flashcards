@@ -12,7 +12,7 @@ Instantiate a new card
 --------------
 card2 = Flashcards::Card.new("Hello", "hola")
 
-Instantiate a card that accepts two different answers
+Instantiate a card that accepts multiple answers
 --------------
 card1 = Flashcards::MultipleAnswerCard.new("How are you?", "Como estas?,como estas")
 
