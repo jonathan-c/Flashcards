@@ -76,20 +76,3 @@ module Flashcards
     end
   end
 end
-
-card1 = Flashcards::MultipleAnswerCard.new("Diana's age", "5,5.5")
-card2 = Flashcards::Card.new("Mom's birthday", "April 4")
-
-deck = Flashcards::Deck.new("Family")
-deck<<card1
-deck<<card2
-
-
-deck2 = Flashcards::Deck.new("Spanish")
-card3 = Flashcards::Card.new("Hello", "hola")
-deck2<<card3
-
-app = Flashcards::Application.new
-app<<deck
-app<<deck2
-app.play
